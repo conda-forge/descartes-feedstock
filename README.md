@@ -5,7 +5,7 @@ Home: http://bitbucket.org/sgillies/descartes/
 
 Package license: BSD License
 
-Feedstock license: BSD
+Feedstock license: BSD 3-Clause
 
 Summary: Use geometric objects as matplotlib paths and patches
 
@@ -69,9 +69,15 @@ Terminology
 
 Current build status
 ====================
+
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/descartes-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/descartes-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/descartes-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/descartes-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/descartes-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/descartes-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/descartes/badges/version.svg)](https://anaconda.org/conda-forge/descartes)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/descartes/badges/downloads.svg)](https://anaconda.org/conda-forge/descartes)
 
 
 Updating descartes-feedstock
