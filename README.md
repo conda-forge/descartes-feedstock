@@ -11,6 +11,18 @@ Summary: Use geometric objects as matplotlib paths and patches.
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/descartes-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/descartes-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/descartes-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/descartes-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/descartes-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/descartes-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/descartes/badges/version.svg)](https://anaconda.org/conda-forge/descartes)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/descartes/badges/downloads.svg)](https://anaconda.org/conda-forge/descartes)
+
 Installing descartes
 ====================
 
@@ -31,7 +43,6 @@ It is possible to list all of the versions of `descartes` available on your plat
 ```
 conda search descartes --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -67,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/descartes-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/descartes-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/descartes-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/descartes-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/descartes-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/descartes-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/descartes/badges/version.svg)](https://anaconda.org/conda-forge/descartes)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/descartes/badges/downloads.svg)](https://anaconda.org/conda-forge/descartes)
 
 
 Updating descartes-feedstock
