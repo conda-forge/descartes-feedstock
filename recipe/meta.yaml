@@ -1,4 +1,4 @@
-{% set version = "1.0.2" %}
+{% set version = "1.1.0" %}
 
 package:
   name: descartes
@@ -7,7 +7,7 @@ package:
 source:
   fn: descartes-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/d/descartes/descartes-{{ version }}.tar.gz
-  sha256: 078ef4b50baeafd0cbde538750911ca60161829a8696ae2c7e5a6a1071af1257
+  sha256: 135a502146af5ed6ff359975e2ebc5fa4b71b5432c355c2cafdc6dea1337035b
 
 build:
   number: 0
