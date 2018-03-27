@@ -5,18 +5,18 @@ package:
   version: {{ version }}
 
 source:
-  fn: descartes-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/d/descartes/descartes-{{ version }}.tar.gz
   sha256: 135a502146af5ed6ff359975e2ebc5fa4b71b5432c355c2cafdc6dea1337035b
 
 build:
-  number: 0
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  number: 1
+  noarch: python
+  script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
   build:
     - python
-    - setuptools
+    - pip
   run:
     - python
     - matplotlib
@@ -28,7 +28,7 @@ test:
 about:
   home: http://bitbucket.org/sgillies/descartes/
   license: BSD
-  summary: 'Use geometric objects as matplotlib paths and patches.'
+  summary: 'Use geometric objects as matplotlib paths and patches'
 
 extra:
   recipe-maintainers:
