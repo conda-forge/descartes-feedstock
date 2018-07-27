@@ -14,12 +14,15 @@ Summary: Use geometric objects as matplotlib paths and patches
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/descartes-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/descartes-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/descartes-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/descartes-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/descartes/badges/version.svg)](https://anaconda.org/conda-forge/descartes)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/descartes/badges/downloads.svg)](https://anaconda.org/conda-forge/descartes)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-descartes-green.svg)](https://anaconda.org/conda-forge/descartes) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/descartes.svg)](https://anaconda.org/conda-forge/descartes) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/descartes.svg)](https://anaconda.org/conda-forge/descartes) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/descartes.svg)](https://anaconda.org/conda-forge/descartes) |
 
 Installing descartes
 ====================
