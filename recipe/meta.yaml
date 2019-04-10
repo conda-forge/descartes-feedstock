@@ -9,9 +9,9 @@ source:
   sha256: 135a502146af5ed6ff359975e2ebc5fa4b71b5432c355c2cafdc6dea1337035b
 
 build:
-  number: 2
+  number: 3
   noarch: python
-  script: python -m pip install --no-deps --ignore-installed .
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
   host:
@@ -27,6 +27,7 @@ test:
 
 about:
   home: http://bitbucket.org/sgillies/descartes/
+  # https://bitbucket.org/sgillies/descartes/issues/5/license
   license: BSD
   summary: 'Use geometric objects as matplotlib paths and patches'
 
