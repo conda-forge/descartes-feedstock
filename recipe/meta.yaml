@@ -29,6 +29,7 @@ about:
   home: http://bitbucket.org/sgillies/descartes/
   # https://bitbucket.org/sgillies/descartes/issues/5/license
   license: BSD
+  license_file: LICENSE.txt
   summary: 'Use geometric objects as matplotlib paths and patches'
 
 extra:
