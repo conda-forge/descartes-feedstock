@@ -3,7 +3,7 @@ About descartes
 
 Home: http://bitbucket.org/sgillies/descartes/
 
-Package license: BSD
+Package license: BSD-3-Clause
 
 Feedstock license: BSD 3-Clause
 
