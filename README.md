@@ -3,7 +3,7 @@ About descartes
 
 Home: http://bitbucket.org/sgillies/descartes/
 
-Package license: BSD
+Package license: BSD-3-Clause
 
 Feedstock license: BSD 3-Clause
 
@@ -15,10 +15,11 @@ Current build status
 ====================
 
 
-<table><tr>
-    <td>All platforms:</td>
+<table><tr><td>All platforms:</td>
     <td>
-      <img src="https://img.shields.io/badge/noarch-disabled-lightgrey.svg" alt="noarch disabled">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=2848&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/descartes-feedstock?branchName=master">
+      </a>
     </td>
   </tr>
 </table>
